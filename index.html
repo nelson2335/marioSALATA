@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario SALATA</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- p5.js creará el canvas aquí -->
+    </div>
+    <div id="debug-panel">
+        <p>Fuerza del soplido: <span id="blow-strength">0</span></p>
+        <label for="sensitivity">Sensibilidad:</label>
+        <input type="range" id="sensitivity" min="0" max="100" value="50">
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
